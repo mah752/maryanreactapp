@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import SearchEngine from "./SearchEngine";
 import FancyLoadingAnimation from "fancy-loading-animation";
@@ -12,7 +11,8 @@ function App() {
         loadingAnimationDelay = { 0.3 }
         loadingCharacterDirection = "right"
         loadingTextStyle = {
-            { color: "orange" } }
+            { color: "orange" }
+        }
         />{" "} <
         header className = "App-header" >
         <
@@ -22,8 +22,8 @@ function App() {
         target = "_blank"
         rel = "noopener noreferrer" >
         Learn React { " " } <
-        /a>{" "} <
-        /header>{" "} <
+        /a>{" "} < /
+        header > { " " } <
         /div>
     );
 }
